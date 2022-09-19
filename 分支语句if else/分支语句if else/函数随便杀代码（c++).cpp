@@ -3,6 +3,20 @@
 #include<iostream>
 using namespace std;
 
+//c 语言方式
+//int main()
+//{
+//	int a = 0,b = 0;
+//	scanf("%d %d", &a, &b);
+//	int c = a + b;
+//	printf("%d", c);
+//	return 0;
+//
+//
+//}
+
+
+//c++方式
 //int main()
 //{
 //	int a = 0, b = 0, c = 0;
@@ -15,3 +29,5 @@ using namespace std;
 //	//python:
 //  //>>a >>b
 //	//c enter
+
+

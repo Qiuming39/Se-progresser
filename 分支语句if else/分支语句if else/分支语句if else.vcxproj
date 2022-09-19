@@ -129,6 +129,8 @@
   <ItemGroup>
     <ClCompile Include="分支语句if else.c" />
     <ClCompile Include="函数随便杀代码（c++%29.cpp" />
+    <ClCompile Include="分支语句switch语句.c" />
+    <ClCompile Include="循环语句while.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

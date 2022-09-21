@@ -30,5 +30,8 @@
     <ClCompile Include="循环语句for.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="循环语句do while.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

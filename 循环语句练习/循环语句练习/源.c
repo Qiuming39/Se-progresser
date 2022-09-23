@@ -50,30 +50,30 @@
 
 
 
-int main()
-{
-	int i = 0;
-	char password[20];
-	char key[] = "123456";
-	for (i = 0; i < 3; i++)
-	{
-		printf("请输入密码");
-		scanf("%s", password);
-		//if (password == key;//两个字符串比较不能用==应该用strcmp
-		if (strcmp(password, key) == 0)
-		{
-			printf( "登陆成功" );
-			break;
-		}
-		else
-		{
-			printf("密码输入错误\n");
-		}
-	}
-	if(i==3)
-	{
-		printf("三次密码全错，退出程序");
-	}
-	
-	return 0;
-}
+//int main()
+//{
+//	int i = 0;
+//	char password[20];
+//	char key[] = "123456";
+//	for (i = 0; i < 3; i++)
+//	{
+//		printf("请输入密码");
+//		scanf("%s", password);
+//		if (password == key;//两个字符串比较不能用==应该用strcmp
+//		if (strcmp(password, key) == 0)
+//		{
+//			printf( "登陆成功" );
+//			break;
+//		}
+//		else
+//		{
+//			printf("密码输入错误\n");
+//		}
+//	}
+//	if(i==3)
+//	{
+//		printf("三次密码全错，退出程序");
+//	}
+//	
+//	return 0;
+//}

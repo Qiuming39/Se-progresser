@@ -16,8 +16,7 @@
 //}
 
 
-
-
+//计算1！+2！+3！的值
 //int main()
 //{
 //	int i = 1;
@@ -78,8 +77,8 @@
 //	int k = 7;//要查找的数字
 //	//在arr这个有序数组中查找7的值
 //	int sz = sizeof(arr) / sizeof(arr[0]);//数组的元素个数
-//	int left = 0;
-//	int right = sz - 1;
+//	int left = 0;//下标，序号
+//	int right = sz - 1;//下标，序号
 //	while (left <= right)
 //	{
 //		int mid = (left + right) / 2;
